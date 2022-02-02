@@ -27,7 +27,7 @@ def bunner(text):
 
 os.system("apt install toilet boxes python python3 -y && clear")
 bunner("WPS_DOS")
-url = input("\nEnter site's url [http\https]://example.[com]/ (required at the end of the link '/') -----> ")
+url = input("\nEnter site's url [http\https]://example.[com]/ -----> ")
 url = str(url)
 url = right_url(url)
 thr = input("How many threads use? (!1 THREAD = 1 TERMINAL WINDOW) ----->")
